@@ -1,0 +1,12 @@
+project_title                   = WebSharks PHP Web Server
+
+project_owner                   = websharks
+project_slug                    = php-web-server
+
+project_namespace               = WebSharks\\PhpWebServer
+project_sub_namespace           = PhpWebServer
+
+project_version                 = %y%m%d
+
+project_php_required_version    = 5.4
+project_php_tested_up_to_version = ${php.version}

@@ -1,0 +1,52 @@
+{
+  "name": "websharks/php-web-server",
+  "homepage": "https://github.com/websharks/php-web-server",
+  "description": "PHP Web Server by WebSharks, Inc.",
+  "keywords": ["websharks", "php", "web server"],
+
+  "type": "library",
+  "license": "GPL-3.0+",
+
+  "authors": [{
+    "name": "websharks",
+    "homepage": "http://websharks-inc.com/",
+    "role": "company"
+  }, {
+    "name": "jaswsinc",
+    "homepage": "http://jaswsinc.com/",
+    "role": "developer"
+  }, {
+    "name": "raamdev",
+    "homepage": "http://raam.org/",
+    "role": "developer"
+  }],
+
+  "support": {
+    "source": "https://github.com/websharks/php-web-server",
+    "issues": "https://github.com/websharks/php-web-server/issues"
+  },
+
+  "require": {
+    "php-64bit": ">=5.4",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {},
+  "suggest": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "autoload": {
+    "psr-4": {
+      "WebSharks\\PhpWebServer\\Classes\\": "src/includes/classes",
+      "WebSharks\\PhpWebServer\\Interfaces\\": "src/includes/interfaces",
+      "WebSharks\\PhpWebServer\\Traits\\": "src/includes/traits"
+    }
+  },
+
+  "config": {
+    "vendor-dir": "src/vendor",
+    "preferred-install": "dist"
+  },
+
+  "repositories": []
+}
